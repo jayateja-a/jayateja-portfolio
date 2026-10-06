@@ -15,7 +15,7 @@ export function Hero() {
         <div className="mt-6 flex max-w-xl flex-wrap gap-x-4 gap-y-2 font-mono text-sm text-[#9fadd0]" aria-label="Primary technologies">{stack.map(item => <span key={item}>{item}</span>)}</div>
         <div className="mt-9 flex flex-wrap gap-3">
           <a href="#work" className="primary-action">View work</a>
-          <a href={siteConfig.resume} download="Jayateja_Alugolu_resume.pdf" className="secondary-action"><Download className="size-4"/>Download resume</a>
+          <a href={siteConfig.resume} download="Jayateja_Alugolu_Resume.pdf" className="secondary-action"><Download className="size-4"/>Download resume</a>
           <a href="#contact" className="secondary-action">Let&apos;s talk</a>
         </div>
       </div>

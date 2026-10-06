@@ -12,7 +12,7 @@ export const siteConfig = {
   phoneHref: "+15068975428",
   github: "https://github.com/jayateja-a",
   linkedin: "https://linkedin.com/in/jayateja-alugolu",
-  resume: "/Jayateja_Alugolu_Jayateja_Alugolu_Resume.pdf",
+  resume: "/Jayateja_Alugolu_Resume.pdf",
   profileImage: "/profile.png",
   location: "Canada",
 };

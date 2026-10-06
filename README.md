@@ -19,7 +19,7 @@ npm start
 ## Personal assets
 
 - Put your actual portrait at `public/profile.png`. It renders as a 64px circle just before your name. The initials JA appear if the asset is absent. No personal photo is bundled.
-- The resume download serves `public/Jayateja_Alugolu_Resume.pdf` and saves it as `Jayateja_Alugolu_resume.pdf`.
+- The resume download serves `public/Jayateja_Alugolu_Resume.pdf` and saves it with the same filename.
 - Replace `https://yourdomain.com` in `lib/site-data.ts` before deployment. Canonical metadata, sitemap, robots and Person JSON-LD use that value.
 
 ## Retained sections
