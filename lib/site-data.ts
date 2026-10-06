@@ -6,15 +6,15 @@ export const siteConfig = {
   headline: "I turn complex systems into software that teams can trust in production.",
   intro:
     "Software engineer with 7 years across fintech, healthcare, cybersecurity, telecom, and enterprise modernization — working from product UI and APIs down to distributed systems, cloud infrastructure, data pipelines, and production reliability.",
-  domain: "https://yourdomain.com",
+  domain: "https://jayateja-portfolio-gamma.vercel.app/",
   email: "alugolu.jayateja@gmail.com",
   phoneDisplay: "+1 506-897-5428",
   phoneHref: "+15068975428",
   github: "https://github.com/jayateja-a",
   linkedin: "https://linkedin.com/in/jayateja-alugolu",
-  resume: "/Jayateja_Alugolu_Resume.pdf",
+  resume: "/Jayateja_Alugolu_Jayateja_Alugolu_Resume.pdf",
   profileImage: "/profile.png",
-  location: "Toronto, ON, Canada",
+  location: "Canada",
 };
 
 export type ProjectCategory = "Java" | "Python / AI" | "Full Stack" | "Cloud / DevOps";

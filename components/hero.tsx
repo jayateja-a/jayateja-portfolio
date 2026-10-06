@@ -8,7 +8,7 @@ export function Hero() {
   return (
     <section id="top" className="hero-section mx-auto grid max-w-7xl items-center gap-12 px-5 pb-16 pt-32 sm:px-8 lg:grid-cols-[1.15fr_.85fr] lg:px-10">
       <div>
-        <p className="mb-8 font-mono text-xs uppercase tracking-[.18em] text-[#74e7dc]">Toronto, Canada / Software Engineer</p>
+        <p className="mb-8 font-mono text-xs uppercase tracking-[.18em] text-[#74e7dc]">Canada / Software Engineer</p>
         <div className="mb-5 flex items-center gap-4"><ProfilePortrait /><span className="font-mono text-xs text-[#a3afd0]">// hello, I&apos;m</span></div>
         <h1 className="text-[clamp(3.2rem,7.8vw,6.7rem)] font-semibold leading-[.95] tracking-[-.065em] text-[#eef0ff]">Jayateja<br/><span className="name-gradient">Alugolu.</span></h1>
         <div className="mt-8 flex max-w-xl flex-wrap gap-2" aria-label="Engineering roles">{siteConfig.roles.map(role => <span key={role} className="rounded-full border border-[#8e9dff]/25 bg-[#141a34] px-3 py-2 text-sm text-[#d0d8f5]">{role}</span>)}</div>
