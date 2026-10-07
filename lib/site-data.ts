@@ -5,7 +5,7 @@ export const siteConfig = {
   roles: ["Backend Engineer", "Full Stack Engineer", "AI / Data Engineer", "Forward-Deployed Engineer"],
   headline: "I turn complex systems into software that teams can trust in production.",
   intro:
-    "Software engineer with 7 years across fintech, healthcare, cybersecurity, telecom, and enterprise modernization — working from product UI and APIs down to distributed systems, cloud infrastructure, data pipelines, and production reliability.",
+    "Software engineer with 5 years across fintech, healthcare, cybersecurity, telecom, and enterprise modernization — working from product UI and APIs down to distributed systems, cloud infrastructure, data pipelines, and production reliability.",
   domain: "https://jayateja-portfolio-gamma.vercel.app/",
   email: "alugolu.jayateja@gmail.com",
   phoneDisplay: "+1 506-897-5428",
@@ -20,16 +20,6 @@ export const siteConfig = {
 export type ProjectCategory = "Java" | "Python / AI" | "Full Stack" | "Cloud / DevOps";
 
 export const projects = [
-  {
-    title: "BankAPI — Modular Financial Backend",
-    description:
-      "A Java Spring Boot banking API for account creation, fund transfers, and transaction history. The design focuses on idempotent operations, validation, error handling, rate limiting, and transaction consistency when requests are retried or duplicated.",
-    category: "Java" as ProjectCategory,
-    tags: ["Java", "Spring Boot", "REST", "Transactions", "Swagger"],
-    github: siteConfig.github,
-    live: "#contact",
-    signal: "Reliable transaction design",
-  },
   {
     title: "Serverless Threat Detection — AWS",
     description:
@@ -59,6 +49,16 @@ export const projects = [
     github: siteConfig.github,
     live: "#journey",
     signal: "Migration time −50%",
+  },
+  {
+    title: "BankAPI — Modular Financial Backend",
+    description:
+      "A Java Spring Boot banking API for account creation, fund transfers, and transaction history. The design focuses on idempotent operations, validation, error handling, rate limiting, and transaction consistency when requests are retried or duplicated.",
+    category: "Java" as ProjectCategory,
+    tags: ["Java", "Spring Boot", "REST", "Transactions", "Swagger"],
+    github: siteConfig.github,
+    live: "#contact",
+    signal: "Reliable transaction design",
   },
 ] as const;
 
@@ -132,7 +132,7 @@ export const careerJourney = [
     story:
       "Worked on BNSF Railway workforce-management modernization, connecting Spring Boot services to legacy DB2/mainframe and SOAP systems while supporting production traffic during the transition.",
     highlights: [
-      "Integrated legacy enterprise services with modern Java APIs instead of forcing a risky big-bang rewrite.",
+      "Integrated DB2-backed mainframe services with Spring Boot microservices, maintaining SOAP integrations while gradually replacing legacy service orchestration components",
       "Reduced recurring production incidents by 25% through troubleshooting, automation, monitoring, and delivery improvements.",
       "Promoted to Senior Software Engineer as scope and ownership increased.",
     ],
@@ -147,8 +147,9 @@ export const careerJourney = [
     story:
       "Built and supported backend services for the British Telecom Global Services Portal, with responsibility spanning APIs, testing, production issues, database performance, code review, and mentoring.",
     highlights: [
-      "Optimized Oracle SQL and Hibernate mappings, reducing query execution time by 55%.",
-      "Resolved database bottlenecks affecting more than 10,000 concurrent users at peak load.",
+      "Built Spring Boot APIs with request validation, pagination, and rate limiting to support integrations across BT portal services.",
+      "Independently resolved Angular Spring Boot integration defects, fixing JSON deserialization, null-field handling, and inconsistent HTTP status codes; added regression tests.",
+      "Investigated production issues and contributed to technical decisions across distributed teams.",
       "Mentored junior engineers and contributed to architecture and technical decisions across distributed teams.",
     ],
     stack: ["Java", "Spring Boot", "Angular", "Oracle", "Hibernate", "JUnit"],
@@ -210,7 +211,7 @@ export const education = {
     { title: "Security & trust", courses: ["Foundations of Privacy", "Network Security", "Digital Forensics"] },
     { title: "AI & data", courses: ["Natural Language Processing", "Data Analytics", "Business Analytics"] },
     { title: "Cloud & scale", courses: ["Big Data Systems", "Cloud Information Management"] },
-    { title: "Engineering", courses: ["Advanced Software Process"] },
+    { title: "Engineering", courses: ["Advanced Software Process", "Software Requirement Analysis"] },
   ],
 };
 

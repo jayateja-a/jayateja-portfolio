@@ -7,7 +7,7 @@ import { SectionHeading } from "./section-heading";
 export function Contact() {
   return (
     <section id="contact" className="mx-auto max-w-7xl scroll-mt-24 px-5 pb-16 pt-24 sm:px-8 lg:px-10">
-      <SectionHeading index="07" eyebrow="Start a conversation" title="Bring me the messy engineering problem." copy="Backend, product, cloud, data, production reliability, or a problem that crosses all of them — that is usually where I am most useful." />
+      <SectionHeading index="07" eyebrow="Start a conversation" title="Bring me the messy engineering problem." copy="Backend, product, cloud, data, production reliability, or a problem that crosses all of them that is usually where I am most useful." />
       <div className="grid overflow-hidden rounded-[30px] border border-[#e4e8ff]/10 bg-[#12162c]/95 shadow-[0_20px_70px_rgba(30,48,74,.06)] lg:grid-cols-[.8fr_1.2fr]">
         <div className="border-b border-[#e4e8ff]/8 bg-[#171d3b] p-7 text-white lg:border-b-0 lg:border-r sm:p-9">
           <p className="font-mono text-[12px] uppercase tracking-[.18em] text-[#92a8d8]">contact.channel</p>
